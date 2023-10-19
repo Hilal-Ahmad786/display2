@@ -131,7 +131,7 @@ function isStaticImageData(src) {
 function isStaticImport(src) {
     return typeof src === 'object' && (isStaticRequire(src) || isStaticImageData(src));
 }
-const { deviceSizes: configDeviceSizes , imageSizes: configImageSizes , loader: configLoader , path: configPath , domains: configDomains ,  } = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image/","loader":"default"} || _imageConfig.imageConfigDefault;
+const { deviceSizes: configDeviceSizes , imageSizes: configImageSizes , loader: configLoader , path: configPath , domains: configDomains ,  } = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"","loader":"akamai"} || _imageConfig.imageConfigDefault;
 // sort smallest to largest
 const allSizes = [
     ...configDeviceSizes,

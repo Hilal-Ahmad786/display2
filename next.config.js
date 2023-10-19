@@ -13,6 +13,7 @@ module.exports = {
     ignoreDuringBuilds: false,
   },
   images: {
-    unoptimized: true,
+    loader: 'akamai',
+    path: '',
   },
 };
